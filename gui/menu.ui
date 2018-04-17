@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1022</width>
-    <height>621</height>
+    <width>1084</width>
+    <height>668</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -97,7 +97,7 @@ background-color: #FFFFFF;
            </widget>
           </item>
           <item row="0" column="0">
-           <widget class="QPushButton" name="btn_acmesas">
+           <widget class="QPushButton" name="btn1">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -150,7 +150,7 @@ background-color: #FFFFFF;
            </widget>
           </item>
           <item row="0" column="3">
-           <widget class="QPushButton" name="pushButton_2">
+           <widget class="QPushButton" name="btn4">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -200,7 +200,7 @@ background-color: #FFFFFF;
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QPushButton" name="btn_ventasmostrador">
+           <widget class="QPushButton" name="btn2">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -253,7 +253,7 @@ background-color: #FFFFFF;
            </widget>
           </item>
           <item row="0" column="2">
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="btn3">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -325,32 +325,30 @@ background-color: #FFFFFF;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1022</width>
+     <width>1084</width>
      <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
     <property name="title">
-     <string>Archivo</string>
+     <string>Inicio</string>
     </property>
+    <addaction name="actionAbrir_Caja"/>
+    <addaction name="actionCerrar_Caja"/>
+    <addaction name="separator"/>
     <addaction name="actionConfigurar_Impresora"/>
     <addaction name="actionSalir_del_Sistema"/>
    </widget>
    <widget class="QMenu" name="menuConfiguraciones">
     <property name="title">
-     <string>Configuraciones Generales</string>
+     <string>Stock</string>
     </property>
     <addaction name="actionFormas_de_Pago"/>
     <addaction name="actionArticulos"/>
     <addaction name="actionEmpleados"/>
-    <addaction name="actionFormas_de_Pago_2"/>
-   </widget>
-   <widget class="QMenu" name="menuCaja">
-    <property name="title">
-     <string>Caja</string>
-    </property>
-    <addaction name="actionApertura_de_Caja"/>
-    <addaction name="actionCierre_de_Caja"/>
+    <addaction name="actionAdministrar_Proveedores"/>
+    <addaction name="separator"/>
+    <addaction name="actionProductos_por_debajo_del_minimo"/>
    </widget>
    <widget class="QMenu" name="menuAcerca_de">
     <property name="title">
@@ -359,9 +357,17 @@ background-color: #FFFFFF;
     <addaction name="actionLicencia"/>
     <addaction name="actionComprar_producto"/>
    </widget>
+   <widget class="QMenu" name="menuVentas">
+    <property name="title">
+     <string>Ventas</string>
+    </property>
+    <addaction name="actionVenta_R_pida"/>
+    <addaction name="actionVentas_del_d_a"/>
+    <addaction name="actionVentas_por_fecha"/>
+   </widget>
    <addaction name="menuArchivo"/>
-   <addaction name="menuCaja"/>
    <addaction name="menuConfiguraciones"/>
+   <addaction name="menuVentas"/>
    <addaction name="menuAcerca_de"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -433,6 +439,41 @@ background-color: #FFFFFF;
   <action name="actionComprar_producto">
    <property name="text">
     <string>Comprar producto</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Caja">
+   <property name="text">
+    <string>Abrir Caja</string>
+   </property>
+  </action>
+  <action name="actionCerrar_Caja">
+   <property name="text">
+    <string>Cerrar Caja</string>
+   </property>
+  </action>
+  <action name="actionAdministrar_Proveedores">
+   <property name="text">
+    <string>Administrar Proveedores</string>
+   </property>
+  </action>
+  <action name="actionVenta_R_pida">
+   <property name="text">
+    <string>Venta Rápida</string>
+   </property>
+  </action>
+  <action name="actionVentas_del_d_a">
+   <property name="text">
+    <string>Ventas del día</string>
+   </property>
+  </action>
+  <action name="actionVentas_por_fecha">
+   <property name="text">
+    <string>Ventas por fecha</string>
+   </property>
+  </action>
+  <action name="actionProductos_por_debajo_del_minimo">
+   <property name="text">
+    <string>Articulos a Reponer</string>
    </property>
   </action>
  </widget>
