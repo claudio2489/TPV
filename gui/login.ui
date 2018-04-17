@@ -273,10 +273,10 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>90</x>
       <y>100</y>
-      <width>171</width>
-      <height>16</height>
+      <width>251</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -288,7 +288,7 @@
      </font>
     </property>
     <property name="text">
-     <string>PUNTO DE VENTA</string>
+     <string> TERMINAL PUNTO DE VENTA</string>
     </property>
    </widget>
   </widget>

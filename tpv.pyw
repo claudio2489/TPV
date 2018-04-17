@@ -29,10 +29,10 @@ class VistaPrincipal(QMainWindow):
 		QMainWindow.__init__(self)
 
 		#Importamos la vista "menuPrincipal" y la alojamos dentro de la variable "vistaprincipal"
-		self.vista_principal = uic.loadUi("gui/principal.ui", self)
+		self.vista_principal = uic.loadUi("gui/login.ui", self)
 		
 		#cambiamos el titulo de la ventana
-		self.setWindowTitle("Resto")
+		self.setWindowTitle("Punto de Venta")
 		
 		self.vista_principal.btn_iniciar.clicked.connect(self.AbrirMenu)
 		self.vista_principal.btn_comprar.clicked.connect(self.AbrirComprarProducto)

@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>90</y>
+     <y>70</y>
      <width>381</width>
      <height>20</height>
     </rect>
@@ -61,75 +61,6 @@
    </property>
    <property name="text">
     <string>Envie un mail a:</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_9">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>40</y>
-     <width>471</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Comuniquese con el Desarollador para obtener la Licencia completa que le permite trabajar</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_11">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>60</y>
-     <width>471</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="palette">
-    <palette>
-     <active>
-      <colorrole role="Text">
-       <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
-        </color>
-       </brush>
-      </colorrole>
-     </active>
-     <inactive>
-      <colorrole role="Text">
-       <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
-        </color>
-       </brush>
-      </colorrole>
-     </inactive>
-     <disabled>
-      <colorrole role="Text">
-       <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>42</red>
-         <green>85</green>
-         <blue>63</blue>
-        </color>
-       </brush>
-      </colorrole>
-     </disabled>
-    </palette>
-   </property>
-   <property name="text">
-    <string>con hasta 3 usuarios y 30 Mesas simultaneamente.</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -182,7 +113,7 @@
     </palette>
    </property>
    <property name="text">
-    <string>Usted esta por adquirir la Licencia de: &quot;Resto - Software para bares y Restaurantes&quot;</string>
+    <string>Usted esta por adquirir la Licencia de: &quot;Terminal Punto de Venta&quot;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -192,7 +123,7 @@
    <property name="geometry">
     <rect>
      <x>150</x>
-     <y>110</y>
+     <y>90</y>
      <width>201</width>
      <height>21</height>
     </rect>
